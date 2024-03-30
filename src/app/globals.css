@@ -1,0 +1,36 @@
+:root {
+  --bg: radial-gradient(circle, rgb(15, 38, 73) 0%, rgba(14,1,19,1) 100%);
+  --text: #E3FAFF;
+  --textDark: #94A7B5;
+  --textSoft: #ADC2CD;
+  --tags: #A9DBFF;
+  /* 40% */
+  --mark: #a8dbff66; 
+}
+
+/* reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: var(--text);
+  background: var(--bg);
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1420px;
+}
