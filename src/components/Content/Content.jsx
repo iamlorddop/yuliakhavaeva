@@ -3,12 +3,12 @@ import Footer from '@/components/Footer';
 
 const Content = () => {
     return (
-        <div className={styles.container}>
-            <main>
+        <main className={styles.container}>
+            <div>
                 Content
-            </main>
+            </div>
             <Footer />
-        </div>
+        </main>
     );
 }
 

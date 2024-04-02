@@ -21,12 +21,13 @@ a {
   color: inherit;
 }
 
+html,
 body {
   width: 100%;
   min-height: 100vh;
   color: var(--text);
   background: var(--bg);
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .container {
