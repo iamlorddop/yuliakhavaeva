@@ -6,13 +6,22 @@ const HeaderNav = () => {
     <nav className={styles.container}>
       <ul>
         <li>
-          <Link href="#about">About</Link>
+          <Link href="#about" className={styles.link}>
+            <span className={styles.dash}></span>
+            <span className={styles.linkText}>About</span>
+          </Link>
         </li>
         <li>
-          <Link href="#experience">Experience</Link>
+          <Link href="#experience" className={styles.link}>
+            <span className={styles.dash}></span>
+            <span className={styles.linkText}>Experience</span>
+          </Link>
         </li>
         <li>
-          <Link href="#project">Project</Link>
+          <Link href="#projects" className={styles.link}>
+            <span className={styles.dash}></span>
+            <span className={styles.linkText}>Projects</span>
+          </Link>
         </li>
       </ul>
     </nav>
